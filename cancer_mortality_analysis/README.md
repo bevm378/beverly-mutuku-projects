@@ -6,7 +6,7 @@ This project explores relationships between demographic and socioeconomic factor
 - Cleaned and merged public health datasets for analysis
 - Built multiple regression models with feature selection
 - Evaluated model fit and multicollinearity using diagnostics
-- Visualized results with ggplot2
+- Visualized trends and model outputs with ggplot2
 
 *Status:* In progress -- final model evaluation and documentation underway
 *Tools:* R, ggplot2, dplyr, car  
