@@ -8,5 +8,6 @@ This project explores relationships between demographic and socioeconomic factor
 - Evaluated model fit and multicollinearity using diagnostics
 - Visualized results with ggplot2
 
+*Status:* In progress -- final model evaluation and documentation underway
 *Tools:* R, ggplot2, dplyr, car  
 *Course:* Multivariable Statistics
