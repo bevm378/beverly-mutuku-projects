@@ -1,2 +1,0 @@
-library(car)
-vif(final)
