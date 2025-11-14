@@ -1,6 +1,6 @@
 ## Cancer Mortality Analysis (R, Multivariable Regression)
 
-This ongoing project explores relationships between demographic and socioeconomic factors and cancer death rates using multivariable regression in R.
+This project explores relationships between demographic and socioeconomic factors and cancer death rates using multivariable regression in R.
 
 **Highlights so far:**
 - Cleaned and merged public health datasets for analysis
