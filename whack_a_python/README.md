@@ -1,12 +1,20 @@
-## Whack-A-Python (Python, Pygame)
+# Whack-A-Python (Python, Pygame)
 
-An interactive arcade-style Python game where players “whack” pythons appearing randomly on a grid to score points. Designed to test reaction time and logic through event handling and GUI programming.
+An interactive arcade-style Python game where players “whack” pythons appearing
+randomly on a grid to score points. The game tests reaction time and event-handling
+logic using a simple GUI.
 
-**Highlights:**
-- Built using Pygame with object-oriented structure  
-- Implemented grid-based game logic and scoring system  
-- Integrated sound effects and visual feedback for player actions  
-- Designed simple UI for intuitive gameplay
+### Highlights
+- Built using Pygame with object-oriented structure
+- Randomized grid-based game logic and scoring system
+- Integrated sound effects and feedback for player actions
+- Simple, intuitive interface
 
-*Tools:* Python, Pygame  
-*Contributors:* Beverly Mutuku (game logic, grid design), Emma (interface & audio), Jordan (mechanics & gameplay)
+### How to Run
+1. Install Pygame:
+   pip install pygame
+2. Run the game:
+   python whack_a_python.py
+
+### Tools Used
+Python, Pygame
