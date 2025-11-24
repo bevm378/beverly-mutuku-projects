@@ -43,11 +43,6 @@ Key EDA steps in scripts/data_cleaning_eda.R:
   - pctwhite and pctblack are strongly negatively correlated (~–0.82).
   - Education and insurance variables show moderate correlations, indicating some multicollinearity.
 
-Examples of visualizations (see figures/ folder for all):
-
-![Histogram of Mortality](figures/hist_mortality.png)
-![Incidence vs Mortality](figures/incidence_vs_mortality.png)
-
 ---
 
 ## Modeling
@@ -65,23 +60,34 @@ All modeling code lives in scripts/modeling_diagnostics.R.
   final <- backward
   final.form <- formula(final)
 
-Residual plots and influence diagnostics are saved in figures/.
+### Key Visualizations
 
-![Residuals Plot](figures/residuals.png)
-![QQ Plot](figures/qqplot.png)
-![Cook's Distance](figures/cooks.png)
+*Distribution of cancer mortality*
 
-### How to Reproduce
+<img src="figures/hist_mortality.png" width="500">
 
-To rerun the analysis:
+*Incidence vs. mortality*
 
-1. Place the raw CSV files in the data/ folder.
-2. Open the R scripts in scripts/ in this order:
-   - data_cleaning_eda.R
-   - modelling_diagnostics.R
-3. Run each script in an R environment (RStudio recommended).
+<img src="figures/incidence_vs_mortality.png" width="500">
 
-### Dependencies
-R packages used:
-- car
-- MASS
+*Residual diagnostics*
+
+<img src="figures/residual_hist.png" width="500">
+<img src="figures/qqplot_residuals.png" width="500">
+
+*Observed vs predicted (test set)*
+
+<img src="figures/obs_vs_pred.png" width="500">
+
+## How to Run
+
+1. Open scripts/data_cleaning_eda.R to reproduce cleaning and EDA.
+2. Open scripts/modeling_diagnostics.R to run regression models, robustness checks, and generate figures.
+3. Ensure the data/ folder contains:  
+   - cancer_reg.csv  
+   - avg-household-size.csv
+
+All results (coefficients, diagnostics, and plots) are reproduced directly by running the scripts in order.
+
+## Dependencies
+R packages used: car, MASS
