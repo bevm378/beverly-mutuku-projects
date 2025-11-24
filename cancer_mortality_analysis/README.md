@@ -72,12 +72,12 @@ All modeling code lives in scripts/modeling_diagnostics.R.
 
 *Residual diagnostics*
 
+<img src="figures/residuals.png" width="500">
 <img src="figures/hist_residuals.png" width="500">
-<img src="figures/qqplot.png" width="500">
 
 *Observed vs predicted (test set)*
 
-<img src="figures/observed_vs_predicted.png" width="500">
+<img src="figures/observed_predicted.png" width="500">
 
 ## How to Run
 
