@@ -73,7 +73,6 @@ All modeling code lives in scripts/modeling_diagnostics.R.
 *Residual diagnostics*
 
 <img src="figures/residuals.png" width="500">
-<img src="figures/hist_residuals.png" width="500">
 
 *Observed vs predicted (test set)*
 
