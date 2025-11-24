@@ -62,3 +62,18 @@ All modeling code lives in scripts/modeling_diagnostics.R.
   ```r
   final <- backward
   final.form <- formula(final)
+
+### How to Reproduce
+
+To rerun the analysis:
+
+1. Place the raw CSV files in the data/ folder.
+2. Open the R scripts in scripts/ in this order:
+   - data_cleaning_eda.R
+   - modelling_diagnostics.R
+3. Run each script in an R environment (RStudio recommended).
+
+### Dependencies
+R packages used:
+- car
+- MASS
