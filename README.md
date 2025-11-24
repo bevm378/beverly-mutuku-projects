@@ -6,7 +6,7 @@ Hi, I'm Beverly. I'm a Statistics and Data Science major at Loyola Marymount Uni
   Public-health data analysis using regression, feature selection, and model diagnostics to study how
   demographic and socioeconomic factors relate to U.S. county-level cancer mortality rates.
 
-- *Whack-A-Python (Python, OOP)*  
+- *Whack-A-Python (Python, OOP + Pygame)*  
   A small Whack-A-Mole–style game built with Pygame using object-oriented design, grid logic, and simple GUI interactions.
 
 More projects coming soon.
