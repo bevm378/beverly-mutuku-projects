@@ -43,6 +43,11 @@ Key EDA steps in scripts/data_cleaning_eda.R:
   - pctwhite and pctblack are strongly negatively correlated (~–0.82).
   - Education and insurance variables show moderate correlations, indicating some multicollinearity.
 
+Examples of visualizations (see figures/ folder for all):
+
+![Histogram of Mortality](figures/hist_mortality.png)
+![Incidence vs Mortality](figures/incidence_vs_mortality.png)
+
 ---
 
 ## Modeling
@@ -59,6 +64,12 @@ All modeling code lives in scripts/modeling_diagnostics.R.
   ```r
   final <- backward
   final.form <- formula(final)
+
+Residual plots and influence diagnostics are saved in figures/.
+
+![Residuals Plot](figures/residuals.png)
+![QQ Plot](figures/qqplot.png)
+![Cook's Distance](figures/cooks.png)
 
 ### How to Reproduce
 
