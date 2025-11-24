@@ -75,5 +75,5 @@ To rerun the analysis:
 
 ### Dependencies
 R packages used:
-- car
-- MASS
+- car
+- MASS
