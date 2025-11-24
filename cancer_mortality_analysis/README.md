@@ -4,13 +4,10 @@ This project analyzes U.S. county-level cancer mortality data from Kaggle to exp
 socioeconomic, and healthcare-related factors relate to cancer death rates. The analysis focuses on
 cleaning, merging, visualizing, and modeling the data using multivariable regression and robustness checks.
 
-*Dataset source:*  
-https://www.kaggle.com/datasets/varunraskar/cancer-regression
-
 ---
 
 ## Data
-
+- *Source:* https://www.kaggle.com/datasets/varunraskar/cancer-regression
 - *Unit of analysis:* U.S. counties (3,047 rows before cleaning)
 - *Files used:*
   - cancer_reg.csv – cancer mortality, incidence, and demographic variables
@@ -29,7 +26,7 @@ In scripts/data_cleaning_eda.R:
 After cleaning, the dataset has:
 
 - No missing values in the predictors used for modeling.
-- Reasonable ranges for all variables (e.g., median ages ~23–57, poverty ~4–45%).
+- Reasonable ranges for all variables.
 
 ---
 
