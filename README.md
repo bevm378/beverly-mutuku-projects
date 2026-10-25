@@ -1,12 +1,9 @@
 # beverly-mutuku-projects
-Hi, I'm Beverly. I'm a Statistics and Data Science major at Loyola Marymount University (GPA: 3.90). I like exploring data-driven questions that blend tech, health, and real-world problem solving. This repository collects coursework and personal projects using Python and R.
+A collection of smaller coursework and personal projects in R and Python. My larger projects each have their own repository on my [GitHub profile](https://github.com/bevm378).
 
 ## Projects
-- *Cancer Mortality Analysis (R, Multivariable Regression)*  
-  Public-health data analysis using regression, feature selection, and model diagnostics to study how
-  demographic and socioeconomic factors relate to U.S. county-level cancer mortality rates.
+- **[Cancer Mortality Analysis](cancer_mortality_analysis/) (R, Multivariable Regression)**
+  Public health data analysis using regression, stepwise model selection, and diagnostics to study how demographic and socioeconomic factors relate to U.S. county-level cancer death rates.
 
-- *Whack-A-Python (Python, OOP + Pygame)*  
-  A small Whack-A-Mole–style game built with Pygame using object-oriented design, grid logic, and simple GUI interactions.
-
-More projects coming soon.
+- **[Whack-A-Python](whack_a_python/) (Python, Pygame)**
+  A Whack-A-Mole style game built with Pygame, using object-oriented design, grid-based game logic, and sound effects.

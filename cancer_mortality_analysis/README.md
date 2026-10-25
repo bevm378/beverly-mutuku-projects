@@ -59,6 +59,7 @@ All modeling code lives in scripts/modeling_diagnostics.R.
   ```r
   final <- backward
   final.form <- formula(final)
+  ```
 
 ### Key Visualizations
 
